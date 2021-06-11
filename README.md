@@ -4,11 +4,11 @@ Android开发中，防止View快速点击 通过一行注解搞定
 ##### 1、在project的 gradle下 添加仓库地址：
 ```
 
-dependencies {
-        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10'
-    }
+	dependencies {
+        	classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10'
+   	 }
 
-allprojects {
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
@@ -23,8 +23,8 @@ plugins {
     id 'android-aspectjx'
 }
 dependencies {
-	        implementation 'com.github.hwp2009:AndroidQuickClick:1.0.0'
-	}
+ implementation 'com.github.hwp2009:AndroidQuickClick:1.0.0'
+}
 ```
 #### 如何使用
 请参考Demo   com.yulai.MainActivity
