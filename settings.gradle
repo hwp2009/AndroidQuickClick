@@ -1,0 +1,3 @@
+include ':quickClickLib'
+include ':app'
+rootProject.name = "AndroidQuickClick"
