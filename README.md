@@ -59,5 +59,14 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+#### 关于报 java.util.zip.ZipException: zip file is empty 的错误解决
+可以在 gradle 下添加kotlin的忽略
+```
+ aspectjx {
+        enabled true
+        exclude 'androidx','kotlin','com.google','com.squareup','com.alipay','org.apache'
+    }
+
+```
 
 
